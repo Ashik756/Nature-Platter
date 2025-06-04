@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind  -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <title>Nature Platter | Home</title>
+</head>
+<body class="font-[Sora]">
+    <div class=" bg-linear-to-b from-[#fff] to-[#EFEBE3] mb-14">
+        <nav class="flex justify-between items-center p-5 w-[90%] mx-auto" >
+
+            <!-- Big Screen logo -->
+            <img src="./assets/logo-green.png" alt="logo-green" class="sm:block hidden">
+
+            <!-- small screen logo -->
+            <img src="./assets/green-leaves-logo.png" alt="logo-green" class="sm:hidden block w-16">
+
+            <!-- Big screen links -->
+            <div class="text-xl hidden sm:block">
+                <a href="#"class="pr-5">Product</a>
+                <a href="#"class="pr-5">Service</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <!-- Big screen button -->
+           <div class="text-xl cursor-pointer hidden sm:block">
+                <i class="fa-solid fa-magnifying-glass text-2xl mr-5"></i>
+                <i class="fa-solid fa-cart-shopping text-2xl mr-5"></i>
+                <button class="px-8 py-3 border border-[#179800]        rounded-lg cursor-pointer">Login</button>
+                <button class="px-8 py-3 text-white bg-[#179800] rounded-lg cursor-pointer">Register</button>
+           </div>
+
+           <!-- Small screen Hamburger -->
+           <div class="sm:hidden block text-3xl"><i class="fa-solid fa-bars "></i></div>          
+        </nav>
+
+        <!-- Hero section -->
+        <div class="text-center w-[90%] m-auto">
+            <h1 class="text-[32px] sm:text-[56px] font-semibold pb-8 pt-8">Freshness You <span class="text-[#179800]">Can <br> Count</span> On, Prices <br class="sm:hidden">You'll Love!</h1>
+
+            <p class="font-light pb-8">Shop your daily essentials at unbeatable <br>prices. From fresh produce to pantry <br class="sm:hidden"> staples, we've got you covered every day!</p>
+            <img src="./assets/hero-img.png" alt="Hero img" class="m-auto">
+        </div>
+    </div>
+
+    <!-- Services -->
+     <div class="w-[90%] mx-auto">
+        <h1 class="text-4xl text-[#179800] font-semibold ">Services</h1>
+        <div>
+            <img src="./assets/support.png" alt="support">
+            <h2>24/7 Services</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+        </div>
+     </div>
+</body>    
+</html>
