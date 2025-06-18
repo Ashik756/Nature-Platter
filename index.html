@@ -279,22 +279,24 @@
     </div>
 
     <!-- Arrival & Offers -->
-    <div class=" w-[90%] mx-auto">
-         <h1 class="text-4xl text-[#179800] font-semibold my-8">Arrival & Offers</h1>
-        <div class="bg-[#115414] rounded-xl flex justify-between items-center py-5 px-8">
+     <h1 class="text-4xl text-[#179800] font-semibold my-8 w-[90%] mx-auto">Arrival & Offers</h1>
+    <div class="sm:flex sm:w-[90%] mx-auto sm:my-[150px]">
+        <div class=" w-[90%] sm:w-[65%] mx-auto">
+             
+             <div class="bg-[#115414] rounded-xl flex justify-between items-center p-5 sm:pl-[80px]">
             <div>
-                <img src="./assets/dawat-logo.png" alt="dawat-logo">
+                <img src="./assets/dawat-logo.png" alt="dawat-logo" >
                 <button class="bg-[#63B76D] text-white py-2 px-[18px] font-[poppins] text-xs rounded-lg my-8">Cook Exotic Dishes</button>
                 <h3 class=" text-white font-[poppins] text-2xl rounded-lg">UP to <span class="font-bold">20% OFF</span></h3>
             </div>
             <div>
-                <img src="./assets/product-dawat.png" alt="product-dawat">
+                <img src="./assets/product-dawat.png" alt="product-dawat" class="sm:max-h-[288px]">
+            </div>
             </div>
         </div>
-    </div>
 
-    <div class=" w-[90%] mx-auto my-8">
-        <div class="bg-[#102861] rounded-xl flex justify-between items-center py-5 px-8">
+    <div class=" w-[90%] sm:w-[30%] mx-auto my-8 sm:my-0">
+        <div class="bg-[#102861] rounded-xl flex justify-between items-center p-5">
             <div>
                 <img src="./assets/indiagate-logo.png" alt="indiagate-logo">
                 <button class="bg-[#2A4D97] text-white py-2 px-[18px] font-[poppins] text-xs rounded-lg my-8">World's No.1 Rice</button>
@@ -304,7 +306,46 @@
                 <img src="./assets/product-indiagate.png" alt="product-dawat">
             </div>
         </div>
+     </div>
     </div>
-   
+    
+    <!-- Get Grocery News! -->
+     <div class="bg-[#dbab4b] text-center w-[80%] mx-auto rounded-2xl hidden">
+        <div>
+            <img src="./assets/fruit-basket.png" class="mx-auto">
+        </div>
+        <div class="flex flex-col">
+            <h1 class="text-[#179800] text-[22px] font-bold">Get Grocery News!</h1>
+            <p class="">Exclusive training tips, ticks, product deals and more.</p>
+            <input type="email" name="email" placeholder="Enter email...." class="text-[#C4C4C4] bg-white rounded-md">
+           <button class="bg-[#179800] ">Subscribe</button>
+        </div>
+     </div>
+
+    <!-- Footer Section  -->
+    <footer class="bg-[#179800] text-[#ffffff]">
+        <div class=" flex flex-col sm:flex-row sm:justify-between sm:w-[90%] sm:mx-auto pl-9 sm:pl-0 pb-9 pt-50">
+            <div >
+                <img src="./assets/logo-white.png" alt="logo-white">
+                <p class="my-5">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+            </div>
+            <div class="flex flex-col">
+                <a href="#" class="mb-[10px]">Product</a>
+                <a href="#" class="mb-[10px]">Services</a>
+                <a href="#" class="mb-[10px]">Contact us</a>
+            </div>
+            <div >
+                
+                <p class="text-xl">Follow Us</p>
+                <div class="my-5 text-4xl">
+                    <a href="#"><i class="fa-brands fa-facebook mr-3"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram mr-3"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin mr-3"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>    
 </html>
