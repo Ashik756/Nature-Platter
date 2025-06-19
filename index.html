@@ -82,9 +82,9 @@
 
      <!-- Popular Product -->
     <div class="bg-[#EFEBE3]">
-        <h1 class="text-4xl text-[#179800] font-semibold w-[90%] mx-auto">Popular Products </h1>
+        <h1 class="text-4xl text-[#179800] font-semibold w-[90%] mx-auto pt-20">Popular Products</h1>
 
-        <div class=" sm:grid grid-flow-col grid-rows-3 gap-4 w-[90%] mx-auto">
+        <div class=" sm:grid grid-flow-col grid-rows-3 gap-4 w-[90%] mx-auto pb-20">
         <!-- Card 1 -->
         <div class="bg-white flex p-3 my-4 justify-start items-center rounded-md">
             <img src="./assets/product-onion.png" alt="product-onion">
@@ -280,7 +280,7 @@
 
     <!-- Arrival & Offers -->
      <h1 class="text-4xl text-[#179800] font-semibold my-8 w-[90%] mx-auto">Arrival & Offers</h1>
-    <div class="sm:flex sm:w-[90%] mx-auto sm:my-[150px]">
+    <div class="sm:flex sm:w-[90%] mx-auto sm:mt-[150px]">
         <div class=" w-[90%] sm:w-[65%] mx-auto">
              
              <div class="bg-[#115414] rounded-xl flex justify-between items-center p-5 sm:pl-[80px]">
@@ -310,15 +310,17 @@
     </div>
     
     <!-- Get Grocery News! -->
-     <div class="bg-[#dbab4b] text-center w-[80%] mx-auto rounded-2xl hidden">
+     <div class="bg-[#EFEBE3] text-center w-[90%] mx-auto my-14 rounded-2xl relative top-50 sm:flex justify-evenly">
         <div>
-            <img src="./assets/fruit-basket.png" class="mx-auto">
+            <img src="./assets/fruit-basket.png" class="mx-auto mt-12 sm:mt-0 sm:py-12">
         </div>
-        <div class="flex flex-col">
-            <h1 class="text-[#179800] text-[22px] font-bold">Get Grocery News!</h1>
-            <p class="">Exclusive training tips, ticks, product deals and more.</p>
-            <input type="email" name="email" placeholder="Enter email...." class="text-[#C4C4C4] bg-white rounded-md">
-           <button class="bg-[#179800] ">Subscribe</button>
+        <div class="flex flex-col items-start sm:mt-12">
+            <h1 class="text-[#179800] sm:text-black text-[22px] sm:text-[36px] font-bold my-6 mx-auto sm:mx-0">Get Grocery News!</h1>
+            <p class="mx-auto">Exclusive training tips, ticks, product deals and more.</p>
+            <form class="mx-auto sm:mx-0">               
+                <input type="email" name="email" placeholder="Enter email...." autocomplete="off" class="text-[#149458]  placeholder-gray-500 bg-white rounded-md w-[85%] sm:w-[100%] mx-auto px-3 py-2 border-none my-6">
+               <button type="submit" class="bg-[#179800] py-2 px-6 rounded-md text-white text-sm mb-5 sm:block">Subscribe</button>
+            </form>
         </div>
      </div>
 
